@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(56, 56, 202, 0);
+}
+
+header {
+    text-align: center;
+    background-color: #1b1bb5;
+    color: white;
+    padding: 50px;
+}
+h1 {
+   
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+    text-align: center;
+    background-color:#1b1bb5;
+}
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 40px;
+    margin: 50px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    color: #090deeef;
+}
+.Profile {
+    display: flex;
+    align-items: center;  
+}
+
+.Profile img {
+    width: 200px;  /* Genişlik */
+    height: 200px; /* Yükseklik */
+    object-fit: cover;
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
