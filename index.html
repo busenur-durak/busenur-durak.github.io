@@ -4,18 +4,55 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Busenur-DURAK</title>
     
     <style>
         
         img {
             display: inline-block;
-            vertical-align: middle; /* Resmin metinle düzgün hizalanmasını sağlar */
+            vertical-align: middle; 
         }
         p {
             display: inline-block;
-            vertical-align: middle; /* Metni de resmin ortasına hizalar */
+            vertical-align: middle; 
         }
+        .graph-container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .skill {
+            margin-bottom: 15px;
+        }
+        .skill span {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .bar {
+            width: 100%;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            overflow: hidden;
+            height: 25px;
+        }
+        .bar-inner {
+            height: 100%;
+            border-radius: 10px;
+            text-align: center;
+            color: #fff;
+            line-height: 25px;
+            font-size: 14px;
+        }
+        .bar-inner.programming { background-color: #4caf50; width: 80%; }
+        .bar-inner.web { background-color: #2196f3; width: 70%; }
+        .bar-inner.oop { background-color: #ff9800; width: 85%; }
+        .bar-inner.data { background-color: #9c27b0; width: 75%; }
+        .bar-inner.databases { background-color: #f44336; width: 60%; }
+        .bar-inner.tools { background-color: #00bcd4; width: 90%; }
     </style>
    <style>
     
@@ -25,7 +62,9 @@
       border: 5px solid blue;
     }
 
+
   </style>
+ 
  
 </head
 <title>Busenur-Durak</title>
@@ -37,25 +76,29 @@
     </header>
     <nav>
         <ul>
-            <li><a href="About Me">About Me</a> </li>
-            <li><a href="Skills">Skills</a></li>
-            <li><a href="Projects">Projects</a></li>
-            <li><a href="Contact">Contact</a></li>
+            <li><a href="#About Me">About Me</a> </li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
         </ul>
     </nav>
-    <img src="C:\Users\Busenur Durak\Desktop\html\python_veri_yapilari.v1-1024x577.jpg" alt="">
+    <div class="container">
+        <img src="C:\Users\Busenur Durak\Desktop\html\python_veri_yapilari.v1-1024x577.jpg" alt="">
+        <img src="C:\Users\Busenur Durak\Desktop\html\1148.jpg_wh300.jpg" alt="">
+        <img src="C:\Users\Busenur Durak\Desktop\html\flat-design-concept-create-big-idea-with-xx-illustrate-free-vector.jpg" alt="">
+        <img src="C:\Users\Busenur Durak\Desktop\html\OIP.jpg" alt="">
+         </div>
     <section id="About Me">
         <h2>About Me</h2>
         <div class="Profile">
             <img src="profile.jpeg" alt="">
-            <p> About Me
-                Hello, I am Busenur Durak, a management information systems student in Izmir, Turkey. I am currently studying MIS in my third year at Bakırçay University. Although I am 21 years old, I am improving myself in various programming languages ​​and project management. I have many different and creative ideas, projects and thoughts.
+            <p>  I am Busenur Durak, a management information systems student in Izmir, Turkey. I am currently studying MIS in my third year at Bakırçay University. Although I am 21 years old, I am improving myself in various programming languages ​​and project management. I have many different and creative ideas, projects and thoughts.
                 
                 I think I will be very successful in the future and I will be able to implement my projects.</p>  
         
         </div>
     </section>
-    <section id="skills">
+    <section id="Skills">
         <h2>Skills</h2>
         <ul>
             <li><strong>Programming Languages:</strong>C, C#, Python, R
@@ -68,32 +111,34 @@
         </ul>
     </section>
 
-    <section id="project">
+    <section id="Projects">
         <h2>Project</h2>
         <ul>
-            <li><a href="C:\Users\Busenur Durak\Downloads\durak_busenur_exam_expenditures-.xlsx" > Use-Excel </a> Basıc Informatıon Technologıes and Theır Use</li>
-            <li><a href="C:\Users\Busenur Durak\Downloads\durak_busenur_hobby.pptx" > Use-Powerpoınt </a> Basıc Informatıon Technologıes and Theır Use</li>
-            <li><a href="C:\Users\Busenur Durak\Downloads\animalfarm.docx">Book critique</a> Introduction to Business Science</li>
-            <li><a href="C:\Users\Busenur Durak\Downloads\ibrahim-selim.pdf">Podcast Assignment</a> Introduction to Business Science</li>
-            <li><a href="C:\Users\Busenur Durak\Downloads\isletme-sunumu-rapor.docx">Establishing a Company-Hedjhotep</a> Introduction to Business Science</li>
-            <li><a href="C:\Users\Busenur Durak\Downloads\siber-guvenlik-(1).pdf">Cyber ​​Security-1</a> Computer Networks and Cyber ​​Security</li>
-            <li><a href="C:\Users\Busenur Durak\Downloads\busenurdurak-211005006-(2).zip">Cyber ​​Security-2</a> Computer Networks and Cyber ​​Security</li>
-            <li><a href="C:\Users\Busenur Durak\Downloads\tbc-(1).docx">Building a Brand - TBC</a> E-Business</li>
-            <li><a href="C:\Users\Busenur Durak\Downloads\final.zip">Product and Brand Design</a> Entrepreneurship and Innovation</li>
-            <li><a href="file:///C:/Users/Busenur%20Durak/Desktop/html/index.html">First-Web</a> Web Programming</li>
+            <li><button onclick="window.location.href='C:\\Users\\Busenur Durak\\Downloads\\durak_busenur_exam_expenditures-.xlsx'">Use-Excel</button> - Basic Information Technologies and Their Use</li>
+            <li><button onclick="window.location.href='C:\\Users\\Busenur Durak\\Downloads\\durak_busenur_hobby.pptx'">Use-Powerpoint</button> - Basic Information Technologies and Their Use</li>
+            <li><button onclick="window.location.href='C:\\Users\\Busenur Durak\\Downloads\\animalfarm.docx'">Book critique</button> - Introduction to Business Science</li>
+            <li><button onclick="window.location.href='C:\\Users\\Busenur Durak\\Downloads\\ibrahim-selim.pdf'">Podcast Assignment</button> - Introduction to Business Science</li>
+            <li><button onclick="window.location.href='C:\\Users\\Busenur Durak\\Downloads\\isletme-sunumu-rapor.docx'">Establishing a Company-Hedjhotep</button> - Introduction to Business Science</li>
+            <li><button onclick="window.location.href='C:\\Users\\Busenur Durak\\Downloads\\siber-guvenlik-(1).pdf'">Cyber Security-1</button> - Computer Networks and Cyber Security</li>
+            <li><button onclick="window.location.href='C:\\Users\\Busenur Durak\\Downloads\\busenurdurak-211005006-(2).zip'">Cyber Security-2</button> - Computer Networks and Cyber Security</li>
+            <li><button onclick="window.location.href='C:\\Users\\Busenur Durak\\Downloads\\tbc-(1).docx'">Building a Brand - TBC</button> - E-Business</li>
+            <li><button onclick="window.location.href='C:\\Users\\Busenur Durak\\Downloads\\final.zip'">Product and Brand Design</button> - Entrepreneurship and Innovation</li>
+            <li><button onclick="window.location.href='file:///C:/Users/Busenur%20Durak/Desktop/html/index.html'">First-Web</button> - Web Programming</li>
         </ul>
     </section>
 
     <section id="Contact">
         <h2>Contact</h2>
-        <ul>
-           <li><a href="mailto:durakbusenur21@gmail.com">Gmail</a></li>
-           <li><a href="mailto:211005006@bakircay.edu.tr">Outlook</a></li>
-            <li><a href="https://www.linkedin.com/in/busenur-durak-b76879273/">Linkedin</a></li>
-            <li><a href="https://github.com/busenur-durak">GitHub</a></li>
-            <li><a href="https://www.instagram.com/busenur.durak/">Instagram</a></li>
-            <li><a href="tel:+905518219465">Phone Number</a></li>
+        <ul class="contact-list">
+            <li><a href="mailto:durakbusenur21@gmail.com" class="contact-button"><span class="material-icons">email</span>Gmail</a></li>
+            <li><a href="mailto:211005006@bakircay.edu.tr" class="contact-button"><span class="material-icons">email</span>Outlook</a></li>
+            <li><a href="https://www.linkedin.com/in/busenur-durak-b76879273/" class="contact-button"><span class="material-icons">linkedin</span>LinkedIn</a></li>
+            <li><a href="https://github.com/busenur-durak" class="contact-button"><span class="material-icons">github</span>GitHub</a></li>
+            <li><a href="https://www.instagram.com/busenur.durak/" class="contact-button"><span class="material-icons">instagram</span>Instagram</a></li>
+            <li><a href="tel:+905518219465" class="contact-button"><span class="material-icons">phone</span>Phone Number</a></li>
         </ul>
+    </section>
+    
         
     </section>
     <footer>
